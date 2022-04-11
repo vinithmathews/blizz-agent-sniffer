@@ -1,0 +1,23 @@
+{
+    "name": "divineblizz/blizz-agent-sniffer",
+    "description": "A user agent sniffer extending device detector from matamo",
+    "type": "library",
+    "require": {
+        "php": "7.4",
+        "matomo/device-detector": "4.3",
+        "psr/container": "1.1",
+        "laminas/laminas-stdlib": "3.6",
+        "laminas/laminas-dependency-plugin": "2.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Divineblizz\\AgentSniffer\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Vinith Mathews",
+            "email": "vinithmathews@gmail.com"
+        }
+    ]
+}
